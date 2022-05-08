@@ -1,0 +1,52 @@
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.search-area {
+  text-align: center;
+}
+
+#search-text {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.target-area {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.target-item {
+  display: flex;
+  flex-flow: column;
+  width: calc(100% / 4);
+}
+
+.in-area {
+  margin: 10px;
+  text-align: center;
+  border:5px solid #33FFFF;
+}
+
+img {
+  width: 80%;
+  height: 180px;
+  margin: 10px 0;
+}
+
+.example {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  margin: 0 50px 10px 50px;
+  border:2px dotted #808080;
+}
